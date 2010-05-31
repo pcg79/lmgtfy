@@ -14,8 +14,48 @@ body
   :font-size 1.5em
   :color #444
 
+input
+  :-moz-box-sizing content-box
+  :font-family inherit
+
 input.text
-  :font-size 1em
+  :background #fff
+  :border 1px solid #ccc
+  :border-bottom-color #999
+  :border-right-color #999
+  :color #000
+  :font 18px arial,sans-serif bold
+  :height 25px
+  :margin 0
+  :padding 5px 8px 0 6px
+  :vertical-align top
+
+input.text:focus
+  :outline none
+
+input#search, input#lucky
+  :background url("http://www.google.com/images/srpr/nav_logo13.png") repeat scroll center bottom transparent
+  :border medium none
+  :color #000000
+  :cursor pointer
+  :font 15px arial,sans-serif
+  :height 30px
+  :margin 0
+  :outline 0 none
+  :vertical-align top
+
+.button_wrapper
+  :border-bottom 1px solid #E7E7E7
+  :border-right 1px solid #E7E7E7
+  :display inline-block
+  :margin 3px 0 4px 4px
+  .inner
+    :background none repeat scroll 0 0 #EEEEEE
+    :border-color #CCCCCC #999999 #999999 #CCCCCC
+    :border-style solid
+    :border-width 1px
+    :display block
+    :height 30px
 
 #fake_mouse
   :position absolute

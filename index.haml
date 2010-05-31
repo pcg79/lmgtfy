@@ -18,7 +18,7 @@
     %center
       .logo
         %span{ :rel => "localize[pre_logo]" } let me
-        %img#logo{ :src => "http://www.google.com/intl/en_ALL/images/logo.gif" }
+        %img#logo{ :src => "http://www.google.com/intl/en_ALL/images/srpr/logo1w.png" }
         %span{ :rel => "localize[post_logo]" } that for you
       %br
       %br
@@ -26,8 +26,12 @@
       %form
         %input.text{ :type => "text", :size => 55, :title => "Google Search", :value => "" }
         %br
-        %input#search{ :type => "button", :value => "Google Search", :rel => "localize[search_button]" }
-        %input#lucky{ :type => "button", :value => "I'm Feeling Lucky", :rel => "localize[lucky_button]" }
+        %span.button_wrapper
+          .inner
+            %input#search{ :type => "button", :value => "Google Search", :rel => "localize[search_button]" }
+        %span.button_wrapper
+          .inner
+            %input#lucky{ :type => "button", :value => "I'm Feeling Lucky", :rel => "localize[lucky_button]" }
 
       #alert{ :style => "display:none; color:#666;" }
 

@@ -44,6 +44,6 @@ begin
   require "directory_watcher"
 rescue LoadError
   puts "You are missing a required dependency. Please run:"
-  puts "  sudo gem install directory_watcher"
+  puts "  gem install directory_watcher"
   exit 1
 end
