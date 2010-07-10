@@ -1,0 +1,43 @@
+﻿{
+  pre_logo:           "Tớ",
+  post_logo:          "hộ nhé",
+  search_button:      "Tìm kiếm bằng Google",
+  lucky_button:       "Xem trang đầu tiên tìm đuợc",
+  about:              "Giới thiệu",
+  privacy:            "Privacy",
+  live:               "Live Stream",
+  contact:            "Liên hệ",
+  advertise:          "Giá quảng cáo $399",
+  donate:             "Ủng hộ",
+  google_owns_google: "GOOGLE là bản quyền của công ty Google Inc.",
+
+  setup: {
+    type_question: "Nhập câu hỏi và nhấn nút.",
+    share_link:    "Chia sẻ liên kết dưới đây."
+  },
+
+  play: {
+    step_1: "Bước 1: Nhập câu hỏi",
+    step_2: "Bước 2: Nhấn nút Search",
+    pwnage: "Quá khó không nhỉ?",
+    nice:   "Chỉ dễ vậy thôi."
+  },
+
+  link: {
+    copy:      "copy",
+    shorten:   "tinyurl",
+    go:        "go",
+    reset:     "đ",
+    creating:  "Đang tạo...",
+    fetching:  "Lấy dữ liệu về...",
+    copied:    "Đã copy URL vào clipboard",
+    shortened: "Đã copy TinyURL vào clipboard"
+  },
+
+  credit:     "Được phát triển bởi @coderifous và @rmm5t.",
+  genesis:    "Ý tưởng bột phát trong bữa cơm trưa với @coderifous, @tmassing, @rmm5t, @EricStratton, và @methodvon.",
+  pitch:      "Đây là câu trả lời cho những ai thích hỏi hơi là tự Google.",
+  disclaimer: "Không liên quan tới Google&trade;.",
+
+  translated_by: "Dịch bởi Nguyen Vu Hung - @vuhung"
+}
