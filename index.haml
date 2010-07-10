@@ -15,8 +15,8 @@
       - require 'sass'
       = Sass::Engine.new(open("style.sass").read, :style => :compact).render
   %body
+    -# BuySellAds.com Ad Code
     :plain
-      <!-- BuySellAds.com Ad Code -->
       <script type="text/javascript">
       (function(){
         var bsa = document.createElement('script');
@@ -26,7 +26,6 @@
         (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
       })();
       </script>
-      <!-- END BuySellAds.com Ad Code -->
 
     %center
       .logo
@@ -64,10 +63,9 @@
 
     #sponsor
       %img{ :src => "/images/sponsored_by.png" }
+      -# BuySellAds.com Zone Code
       :plain
-        <!-- BuySellAds.com Zone Code -->
         <div id="bsap_1249097" class="bsarocks bsap_4ee0f64d18157a765cae62615d56a1e7"></div>
-        <!-- END BuySellAds.com Zone Code -->
 
     #footer
       %a.about{ :href => "#", :name => "about", :rel => "localize[about]" } About
