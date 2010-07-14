@@ -1,0 +1,43 @@
+﻿{
+  pre_logo:           "Казiр мен",
+  post_logo:          "-дi бұл нәрсе сенге",
+  search_button:      "Google-ге іздеу",
+  lucky_button:       "Мен сәттілік сезiнемiн",
+  about:              "Бiзден туралы",
+  privacy:            "Құпиялық",
+  live:               "Жанды астау",
+  contact:            "Контакттар",
+  advertise:          "Жарнама орналастыру: $399",
+  donate:             "Қайырмалдық",
+  google_owns_google: "GOOGLE - бұл Google Inc сауда белгiсi",
+
+  setup: {
+    type_question: "Сенiн сұрак осы жерде жазшы",
+    share_link:    "Бұл жерде сілтеме үлес."
+  },
+
+  play: {
+    step_1: "Қадам 1: Сенiн сұрагы жазамын",
+    step_2: "Қадам 2: Iздеу түймесi басып қаламын",
+    pwnage: "Салмақты бар едi?",
+    nice:   "Бұл нағыз оңбағандық!"
+  },
+
+  link: {
+    copy:      "Көшіру",
+    shorten:   "қысқа сілтеме",
+    go:        "Алга",
+    reset:     "түсіру",
+    creating:  "Жасамын...",
+    fetching:  "Жинамын...",
+    copied:    "URL көшіріп алды",
+    shortened: "TinyURL көшіріп алу"
+  },
+
+  credit:     "Жасағыныздар: @coderifous және @rmm5t.",
+  genesis:    "Түскі тамақтан сон әңгіме @coderifous -пен, @tmassing -пен, @rmm5t -пен, @EricStratton -пен, and @methodvon -мен шабытады.",
+  pitch:      "Бұл нәрсе құрды ақымақтарға адамдарга үшiн, қайсысы ер қашты боласы, google-дi iзденiн орнында.",
+  disclaimer: "Google&trade байланыс емес едi.",
+
+  translated_by: "Казак тiлге аудармашы: !ntraxX :: intraxx@mail.ru"
+}
