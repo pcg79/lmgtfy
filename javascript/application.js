@@ -136,8 +136,11 @@ $(function(){
   }
 
   function getTheSearchTerms() {
-    // $("#alert").show(); 
+    // $("#alert").show();
     $("#sponsor").fadeIn(1000);
+    $("#bsa_491908").waitForIt(function(){
+      this.addTextToAd("Advanced Software for Modern Laboratories");
+    })
     $("form").submit(function(){ $("#search").click(); return false; });
     instruct("setup.type_question");
     inputField.focus().select();
