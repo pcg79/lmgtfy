@@ -18,12 +18,11 @@ $.fn.centerOver = function(element, topOffset, leftOffset) {
 };
 
 $.fn.addTextToAd = function(text) {
-  var adText = $("<span>")
-    .addClass("bsa_it_d")
-    .css({ display: "inline-block", "text-align": "right", color: "#333" })
-    .text(text);
-  var clone  = this.clone().html(adText);
-  this.before(clone);
+  var adText = $("<span>").addClass("bsa_it_d").text(text);
+  this.find("a:first")
+    .clone()
+    .html(adText)
+    .appendTo(this);
 };
 
 $.fn.waitForIt = function(callback) {
