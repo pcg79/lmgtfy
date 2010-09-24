@@ -17,22 +17,6 @@ $.fn.centerOver = function(element, topOffset, leftOffset) {
   return self;
 };
 
-$.fn.addTextToAd = function(text) {
-  var adText = $("<span>").addClass("bsa_it_d").text(text);
-  this.find("a:first")
-    .clone()
-    .html(adText)
-    .appendTo(this);
-};
-
-$.fn.waitForIt = function(callback) {
-  var match = $(this.selector);
-  if (match.size() > 0)
-    callback.apply(match);
-  else
-    setTimeout(function() { match.waitForIt(callback) }, 1000);
-};
-
 $.fn.sponsor = function(programFile, callback) {
   var self = this;
   $.getJSON(programFile, function(program) {
