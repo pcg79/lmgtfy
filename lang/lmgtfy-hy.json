@@ -1,5 +1,5 @@
 {
-  pre_logo:           "Արի ես որոնեմ",
+  pre_logo:           "Ես կորոնեմ",
   post_logo:          "-ում քո փոխարեն",
   search_button:      "Google-ի որոնում",
   lucky_button:       "Հաջողակ",
@@ -12,21 +12,21 @@
   google_owns_google: "GOOGLE-ը Google Inc-ի ապրանքանիշն է:",
 
   setup: {
-    type_question: "Մուտքագեք հարցը և սեղմեք կոճակը:",
-    share_link:    "Ուղարկել հղումը"
+    type_question: "Մուտքագրեք հարցը և սեղմեք կոճակը",
+    share_link:    "Ուղարկեք հղումը"
   },
 
   play: {
-    step_1: "Քայլ 1: Մուտքագեք հարցը",
-    step_2: "Քայլ 2: Սեղմեք Google-ի որոնում կոճակը",
-    pwnage: "Այդքան բա՞րդ էր",
-    nice:   "Տեսնում էս թե որքան հեշտ է:"
+    step_1: "Քայլ 1. Մուտքագրեք հարցը",
+    step_2: "Քայլ 2. Սեղմեք որոնում կոճակը",
+    pwnage: "Այդքան բարդ է՞ր",
+    nice:   "Տեսնու՞մ ես, թե որքան հեշտ է"
   },
 
   link: {
     copy:      "copy",
     shorten:   "tinyurl",
-    go:        "գնալ",
+    go:        "go",
     reset:     "reset",
     creating:  "Creating...",
     fetching:  "Fetching...",
@@ -36,8 +36,8 @@
 
   credit:     "Ստեղծվել է @coderifous-ի և @rmm5t-ի կողմից:",
   genesis:    "@coderifous-ի, @tmassing-ի, @rmm5t-ի, @EricStratton-ի, և @methodvon-ի հետ ճաշի զրույցից ոգեշնչվելու արդյունքում:",
-  pitch:      "Սա բոլոր այն մարդկանց համար է որոնք գտնում են որ ավելի հարմար է անհագստացնել ձեզ իրենց հարցերով քան թե որոնել google-ում ինքնուրույն:",
+  pitch:      "Սա բոլոր այն մարդկանց համար է, որոնք կարծում են, թե ավելի հարմար է անհանգստացնել Ձեզ իրենց հարցերով, քան որոնել google-ում ինքնուրույն:",
   disclaimer: "Ոչ մի կերպ կապված չէ Google&trade;-ի հետ:",
 
-  translated_by: "Թարգմանեց @grigy-ն"
+  translated_by: "Թարգմանեց @grigy-ն:"
 }
