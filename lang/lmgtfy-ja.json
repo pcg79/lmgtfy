@@ -1,4 +1,4 @@
-{
+﻿{
   pre_logo:           "let me",
   post_logo:          "that for you",
   search_button:      "Google 検索",
@@ -7,37 +7,37 @@
   privacy:            "プライバシー",
   live:               "Live Stream",
   contact:            "メール",
-  advertise:          "広告を出す",
+  advertise:          "広告を載せる",
   donate:             "寄付",
-  google_owns_google: "GOOGLE is a trademark of Google Inc.",
+  google_owns_google: "GOOGLE　は、Google Incの商標登録です。",
 
   setup: {
-    type_question: "質問を入力して、ボタンをクリック",
+    type_question: "検索させたい言葉を入力",
     share_link:    "下記のリンクを公開してください"
   },
 
   play: {
-    step_1: "Step 1: 質問を入力する。",
-    step_2: "Step 2: Google 検索ボタンをクリック。",
+    step_1: "Step 1: 知りたいことを入力する。",
+    step_2: "Step 2: Google 検索をクリック。",
     pwnage: "ね、簡単でしょう？",
     nice:   "すごく簡単です。"
   },
 
   link: {
     copy:      "コピー",
-    shorten:   "tinyurl（短縮URL）",
-    go:        "Go",
+    shorten:   "tinyurl",
+    go:        "アクセス",
     reset:     "リセット",
     creating:  "作成中...",
-    fetching:  "Fetching...",
+    fetching:  "短縮中...",
     copied:    "URLをクリップボードにコピー",
     shortened: "TinyURLをクリップボードにコピー"
   },
 
-  credit:     "Created by @coderifous and @rmm5t.",
+  credit:     "@coderifous　と　@rmm5t　によって作成されました。",
   genesis:    "Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
-  pitch:      "これは、質問を自分で調べずに質問する人のために、Google検索の便利さを伝えるものです！",
+  pitch:      "これは、質問を自分で調べずに質問する人のために、Google検索の便利さを「簡単に」伝えるものです！",
   disclaimer: "Google&trade;とは、全く関係の無いサービスです。",
 
-  translated_by: "Translated by @jp_yomogimochi"
+  translated_by: "Translated by Yomogimochi"
 }
