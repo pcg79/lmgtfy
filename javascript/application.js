@@ -36,6 +36,7 @@ $(function(){
   var linkMessage  = $("#link_message");
 
   if (searchString) {
+    $("body").addClass("victim");
     $.proMarket("120083", gentlyEncode(searchString));
     googleItForThem();
   }
@@ -136,8 +137,8 @@ $(function(){
   }
 
   function getTheSearchTerms() {
-    // $("#alert").show(); 
-    $("#sponsor").fadeIn(1000);
+    // $("#alert").show();
+    $(".sponsor.bsa").fadeIn(1000);
     $("form").submit(function(){ $("#search").click(); return false; });
     instruct("setup.type_question");
     inputField.focus().select();
