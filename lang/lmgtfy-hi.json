@@ -1,13 +1,13 @@
 {
   pre_logo:           "मुझे इसको",
   post_logo:          "करने दो तुम्हारे लिए",
-  search_button:      "Google खोजे",
+  search_button:      "Google खोज",
   lucky_button:       "आज मेरी किस्मत अच्छी है",
   about:              "LMGTFY के बारे में सब कुछ",
-  privacy:            "Privacy",
-  live:               "घटित होने वाली संचार",
+  privacy:            "गोपनीयता",
+  live:               "इस समय घटती खोजें",
   contact:            "सम्पर्क",
-  advertise:          "विज्ञापन दीजिये $१९९ में",
+  advertise:          "विज्ञापन दीजिये",
   donate:             "दान दीजिये",
   google_owns_google: "GOOGLE है व्यापार चिन्ह Google Inc. का",
 
@@ -20,7 +20,7 @@
     step_1: "पहला कदम: प्रश्न लिखो",
     step_2: "दूसरा कदम: खोज बटन दबाओ",
     pwnage: "उतना कठिन था क्या?",
-    nice:   "इतना सरल है."
+    nice:   "‌‍‌‍‌‍‌‍‌कितना सरल है"
   },
 
   link: {
@@ -35,9 +35,9 @@
   },
 
   credit:     "@coderifous और @rmm5t ने बनाया है",
-  genesis:    "दोपहर के भोजन के द्वारान @coderifous, @tmassing, @rmm5t, @EricStratton, और @methodvon के बात चीत से यह प्रेरित हुआ",
-  pitch:      "यह उन लोगों के लिए है जो आप Google करने के बदले आपको तंग करना सुविधाजनक समझते हैं",
+  genesis:    "दोपहर के भोजन के दौरान @coderifous, @tmassing, @rmm5t, @EricStratton और @methodvon के बातचीत से यह प्रेरित हुआ",
+  pitch:      "यह उन लोगों के लिए है जो खुद Google करने के बदले आपको तंग करना सुविधाजनक समझते हैं",
   disclaimer: "किसी भी तरह Google&trade; के साथ सम्बंधित नही है",
 
-  translated_by: "Translated by @Kazarelth"
+  translated_by: "@Kazarelth द्वारा अनुवादित"
 }
