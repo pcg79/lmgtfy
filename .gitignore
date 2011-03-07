@@ -1,4 +1,6 @@
-bundle.js
-*.html
 .DS_Store
+*.js
+*.html
 *.swp
+.bundle
+vendor/ruby

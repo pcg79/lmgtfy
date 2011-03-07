@@ -1,0 +1,16 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    directory_watcher (1.3.2)
+    haml (3.0.25)
+    maruku (0.6.0)
+      syntax (>= 1.0.0)
+    syntax (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  directory_watcher
+  haml
+  maruku

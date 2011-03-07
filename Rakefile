@@ -1,3 +1,6 @@
+require "bundler/setup"
+require "directory_watcher"
+
 excludes = %w(.* R* cgi-bin *.haml artwork javascript)
 exclude_options = excludes.map { |e| "--exclude=#{e}" }.join(" ")
 SETTINGS = {
@@ -38,12 +41,4 @@ def autobuild
   Signal.trap('INT') { @watcher.stop }
   @watcher.start
   @watcher.join
-end
-
-begin
-  require "directory_watcher"
-rescue LoadError
-  puts "You are missing a required dependency. Please run:"
-  puts "  gem install directory_watcher"
-  exit 1
 end
