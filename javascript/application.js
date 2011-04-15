@@ -213,6 +213,14 @@ $(function(){
       });
     }
 
+    function easterEgg(){
+      if (searchString == "funny sarah jessica parker movie") {
+        return "/movie-not-found.html";
+      } else {
+        return false;
+      }
+    }
+
     function redirect(){
       if ($.getQueryString({ id: "debug" })) return;
 
@@ -221,7 +229,14 @@ $(function(){
         google = "http://www.google.com/search?hl=en&btnI=I%27m+Feeling+Lucky&pws=0&q=";
       }
 
-      window.location = google + gentlyEncode(searchString);
+      var egg = easterEgg();
+      if (egg) {
+        page = egg;
+      } else {
+        page = google + gentlyEncode(searchString);
+      }
+
+      window.location = page;
     }
 
     function fixSafariRenderGlitch() {
