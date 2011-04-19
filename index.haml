@@ -15,18 +15,6 @@
       - require 'sass'
       = Sass::Engine.new(open("style.sass").read, :style => :compact).render
   %body
-    -# BuySellAds.com Ad Code
-    :plain
-      <script type="text/javascript">
-      (function(){
-        var bsa = document.createElement('script');
-           bsa.type = 'text/javascript';
-           bsa.async = true;
-           bsa.src = '//s3.buysellads.com/ac/bsa.js';
-        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
-      })();
-      </script>
-
     %center
       .logo
         %span{ :rel => "localize[pre_logo]" } let me
@@ -172,12 +160,6 @@
       %span{ :rel => "localize[disclaimer]" }         Not associated with Google&trade; in any way.
 
     %img#fake_mouse{ :src => "images/mouse_arrow.png", :style => "display: none" }
-
-    .sponsor.bsa
-      -# BuySellAds.com Zone Code
-      :plain
-        <div id="bsap_1249097" class="bsarocks bsap_4ee0f64d18157a765cae62615d56a1e7"></div>
-
 
     :plain
       <script type="text/javascript">

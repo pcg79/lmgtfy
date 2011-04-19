@@ -138,7 +138,6 @@ $(function(){
 
   function getTheSearchTerms() {
     // $("#alert").show();
-    $(".sponsor.bsa").fadeIn(1000);
     $("form").submit(function(){ $("#search").click(); return false; });
     instruct("setup.type_question");
     inputField.focus().select();
