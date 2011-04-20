@@ -1,9 +1,17 @@
+@import compass
+@import fancy-buttons
+
+$sponsor_width: 280px
+
 *
   :font-family arial,sans-serif
 
 body
   :background-color #fff
   :color #333
+
+.primary
+  margin-right: $sponsor_width
 
 #logo
   :margin-top -1em
@@ -90,7 +98,7 @@ input.link
   :cursor pointer
 
 #footer
-  :margin-top 40px
+  :margin-top 150px
   :color #999
   :border-top solid 1px #ddd
   :padding-top 0.5em
@@ -153,3 +161,65 @@ a.link_button
   :line-height 32px
   :text-align center
   :font-size 1em
+
+.sponsor
+  +box-shadow
+  display: none
+  width: $sponsor_width
+  position: absolute
+  right: 10px
+  top: 10px
+  .pitch
+    position: relative
+    height: 401px
+    .title, .subtitle, .numbers
+      background: #000
+      color: #fff
+      line-height: 24px
+      +opacity(0.8)
+    .title
+      font-size: 24px
+      padding: 8px
+      text-align: center
+      +ellipsis
+    .subtitle
+      padding: 8px
+      font-size: 16px
+      text-align: center
+      +ellipsis
+    .numbers
+      position: absolute
+      bottom: 0px
+      width: 100%
+      .block
+        float: left
+        text-align: center
+        .value
+          font-size: 24px
+          padding: 8px 0px 0px 0px
+        .label
+          font-size: 12px
+          text-transform: uppercase
+          padding: 0px 8px 8px 8px
+      .block.savings
+        margin-left: 16%
+      .block.remaining
+        position: absolute
+        right: 16%
+  .action
+    padding: 16px 8px
+    background-color: #eee
+    text-align: center
+    a
+      font-family: "arial rounded mt bold"
+      +fancy-button(#F0812B, 32px)
+      padding: 0.3em 0.5em
+      .dollar_sign
+        font-size: 24px
+        font-family: "arial rounded mt bold"
+        position: relative
+        top: -4px
+      .price
+        font-size: 32px
+        font-family: "arial rounded mt bold"
+

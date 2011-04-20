@@ -1,7 +1,11 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    compass (0.10.6)
+      haml (>= 3.0.4)
     directory_watcher (1.3.2)
+    fancy-buttons (1.0.6)
+      compass (= 0.10.6)
     haml (3.0.25)
     maruku (0.6.0)
       syntax (>= 1.0.0)
@@ -11,6 +15,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  compass
   directory_watcher
+  fancy-buttons
   haml
   maruku

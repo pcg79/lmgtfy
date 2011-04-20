@@ -1,0 +1,21 @@
+callback({
+  title: "Hoboken / Jersey City",
+  subtitle: "$50 to Spend on Office Supplies and Business Cards",
+  price: "$10.00",
+  value: "$50.00",
+  savings: "80%",
+  image_url: "http://a4.ak.lscdn.net/imgs/91c3f9ae-8e34-4251-acdf-3bacd7d0c92e/280_q60.jpg",
+  /*image_url: "http://a3.ak.lscdn.net/imgs/2a019383-943f-4881-be1c-4a1c2e1e6280/280_q60.jpg",*/
+  link: "http://deals.livingsocial.com/deals/39377-50-to-spend-on-office-supplies-and-business-cards",
+  country_code: "US",
+  updated_at:    "2011-04-19T05:00:00-04:00",
+  published_at:  "2011-04-19T05:00:00-04:00",
+  offer_ends_at: "2011-04-20T07:59:59-04:00",
+  orders_count: "1,206",
+  merchant_name: "Vistaprint",
+  categories: "Retail,Other",
+  sold_out: "false",
+  national: "false",
+  description: "Owning a small business is commonly known to cause big headaches -- you're like a one-man (or woman) band trying to make the sounds of a symphony. Be a savvy entrepreneur and take advantage of today's deal from Vistaprint: $50 to spend on stationery, calendars, mugs, and more for just $10. Vistaprint is like a toolbox for small businesses -- whether you need snazzy new business cards, a top-notch website, or copywriting skills,Vistaprint offers everything you need to market your brand. Don't have a biz? No prob. Vistaprint also offers products like thank-you cards, T-shirts, key chains, and tote bags that you can use for yourself. You don't need your own accounting department to calculate these savings; all you need is a quick clicker finger and this deal's all yours.",
+  details: "Limit 1 per person &#8226; Limit 1 transaction per mailing address &#8226; Tax and shipping not included &#8226; Voucher not valid for shipment to NY, NC, or outside of the US"
+});

@@ -12,7 +12,11 @@
     %script{ :src => "bundle.js?#{File.mtime("bundle.js").to_i}", :type => "text/javascript" }
     %style{ :rel => "text/css" }
       - require 'sass'
-      = Sass::Engine.new(open("style.sass").read, :style => :compact).render
+      - require 'compass'
+      - require 'fancy-buttons'
+      - Compass.configuration do |config|
+        - config.project_path = File.dirname(__FILE__)
+      = Sass::Engine.new(open("style.sass").read, { :style => :compact }.merge(Compass.sass_engine_options)).render
       = Sass::Engine.new(open("advertise.sass").read, :style => :compact).render
       a { color: #000; }
   %body

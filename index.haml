@@ -13,9 +13,13 @@
     %script{ :src => "bundle.js?#{File.mtime("bundle.js").to_i}", :type => "text/javascript" }
     %style{ :rel => "text/css" }
       - require 'sass'
-      = Sass::Engine.new(open("style.sass").read, :style => :compact).render
+      - require 'compass'
+      - require 'fancy-buttons'
+      - Compass.configuration do |config|
+        - config.project_path = File.dirname(__FILE__)
+      = Sass::Engine.new(open("style.sass").read, { :style => :compact }.merge(Compass.sass_engine_options)).render
   %body
-    %center
+    %center.primary
       .logo
         %span{ :rel => "localize[pre_logo]" } let me
         %img#logo{ :src => "http://www.google.com/intl/en_ALL/images/srpr/logo1w.png" }
@@ -48,6 +52,36 @@
           %a#reset.link_button{ :href => "#", :rel => "localize[link.reset]" } reset
           %a#tiny.link_button{ :href => "#", :rel => "localize[link.shorten]" } tinyurl
           %a#go.link_button{ :href => "#", :rel => "localize[link.go]" } go
+
+    .sponsor
+      .pitch
+        .title Thing Title
+        .subtitle $XX to spend on subtitle
+        .numbers
+          .block.savings
+            .value XX%
+            .label savings
+          .block.remaining
+            .value 14:34:29
+            .label remaining
+      .action
+        %a
+          %span.dollar_sign> $
+          %span.price XX
+          buy&nbsp;now!
+
+      :javascript
+        $.getJSON("/ad_response.json?callback=?", function(){})
+        function callback(data) {
+          var node = $(".sponsor");
+          node.find(".pitch").css("background-image", "url(" + data.image_url + ")");
+          node.find(".title").text(data.title);
+          node.find(".subtitle").text(data.subtitle);
+          node.find(".price").text(data.price.replace(/\.00$/, "").replace("$", ""));
+          node.find(".savings .value").text(data.savings);
+          node.find(".action a").attr("href", data.link);
+          node.fadeIn();
+        };
 
     #footer
       %a.about{ :href => "#", :name => "about", :rel => "localize[about]" } About
