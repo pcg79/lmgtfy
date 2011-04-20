@@ -4,3 +4,5 @@
 *.swp
 .bundle
 vendor/ruby
+tmp
+.sass-cache
