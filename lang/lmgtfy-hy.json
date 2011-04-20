@@ -1,43 +1,43 @@
 {
-  pre_logo:           "Ես կորոնեմ",
-  post_logo:          "-ում քո փոխարեն",
-  search_button:      "Google-ի որոնում",
-  lucky_button:       "Հաջողակ",
-  about:              "Մեր մասին",
-  privacy:            "Գաղտնիություն",
-  live:               "Live Stream",
-  contact:            "Կապ",
-  advertise:          "Գովազդ",
-  donate:             "Նվիրաբերել",
-  google_owns_google: "GOOGLE-ը Google Inc-ի ապրանքանիշն է:",
+  "pre_logo":           "Ես կորոնեմ",
+  "post_logo":          "-ում քո փոխարեն",
+  "search_button":      "Google-ի որոնում",
+  "lucky_button":       "Հաջողակ",
+  "about":              "Մեր մասին",
+  "privacy":            "Գաղտնիություն",
+  "live":               "Live Stream",
+  "contact":            "Կապ",
+  "advertise":          "Գովազդ",
+  "donate":             "Նվիրաբերել",
+  "google_owns_google": "GOOGLE-ը Google Inc-ի ապրանքանիշն է:",
 
-  setup: {
-    type_question: "Մուտքագրեք հարցը և սեղմեք կոճակը",
-    share_link:    "Ուղարկեք հղումը"
+  "setup": {
+    "type_question": "Մուտքագրեք հարցը և սեղմեք կոճակը",
+    "share_link":    "Ուղարկեք հղումը"
   },
 
-  play: {
-    step_1: "Քայլ 1. Մուտքագրեք հարցը",
-    step_2: "Քայլ 2. Սեղմեք որոնում կոճակը",
-    pwnage: "Այդքան բարդ է՞ր",
-    nice:   "Տեսնու՞մ ես, թե որքան հեշտ է"
+  "play": {
+    "step_1": "Քայլ 1. Մուտքագրեք հարցը",
+    "step_2": "Քայլ 2. Սեղմեք որոնում կոճակը",
+    "pwnage": "Այդքան բարդ է՞ր",
+    "nice":   "Տեսնու՞մ ես, թե որքան հեշտ է"
   },
 
-  link: {
-    copy:      "copy",
-    shorten:   "tinyurl",
-    go:        "go",
-    reset:     "reset",
-    creating:  "Creating...",
-    fetching:  "Fetching...",
-    copied:    "URL copied to clipboard",
-    shortened: "TinyURL copied to clipboard"
+  "link": {
+    "copy":      "copy",
+    "shorten":   "tinyurl",
+    "go":        "go",
+    "reset":     "reset",
+    "creating":  "Creating...",
+    "fetching":  "Fetching...",
+    "copied":    "URL copied to clipboard",
+    "shortened": "TinyURL copied to clipboard"
   },
 
-  credit:     "Ստեղծվել է @coderifous-ի և @rmm5t-ի կողմից:",
-  genesis:    "@coderifous-ի, @tmassing-ի, @rmm5t-ի, @EricStratton-ի, և @methodvon-ի հետ ճաշի զրույցից ոգեշնչվելու արդյունքում:",
-  pitch:      "Սա բոլոր այն մարդկանց համար է, որոնք կարծում են, թե ավելի հարմար է անհանգստացնել Ձեզ իրենց հարցերով, քան որոնել google-ում ինքնուրույն:",
-  disclaimer: "Ոչ մի կերպ կապված չէ Google&trade;-ի հետ:",
+  "credit":     "Ստեղծվել է @coderifous-ի և @rmm5t-ի կողմից:",
+  "genesis":    "@coderifous-ի, @tmassing-ի, @rmm5t-ի, @EricStratton-ի, և @methodvon-ի հետ ճաշի զրույցից ոգեշնչվելու արդյունքում:",
+  "pitch":      "Սա բոլոր այն մարդկանց համար է, որոնք կարծում են, թե ավելի հարմար է անհանգստացնել Ձեզ իրենց հարցերով, քան որոնել google-ում ինքնուրույն:",
+  "disclaimer": "Ոչ մի կերպ կապված չէ Google&trade;-ի հետ:",
 
-  translated_by: "Թարգմանեց @grigy-ն:"
+  "translated_by": "Թարգմանեց @grigy-ն:"
 }

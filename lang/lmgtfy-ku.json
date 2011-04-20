@@ -1,43 +1,43 @@
 {
-  pre_logo:           "Lěm gerě ",
-  post_logo:          " bo bikem",
-  search_button:      "le google da bigerě",
-  lucky_button:       "Pěm wabě xoş şansim",
-  about:              "Sebaret be me",
-  privacy:            "Sinur parezǐ",
-  live:               "Zǐndu",
-  contact:            "Peyvendǐ",
-  advertise:          "Rěklam",
-  donate:             "Hawkarǐ",
-  google_owns_google: "GOOGLE army těcarǐ companiyay 'Google' iye.",
+  "pre_logo":           "Lěm gerě ",
+  "post_logo":          " bo bikem",
+  "search_button":      "le google da bigerě",
+  "lucky_button":       "Pěm wabě xoş şansim",
+  "about":              "Sebaret be me",
+  "privacy":            "Sinur parezǐ",
+  "live":               "Zǐndu",
+  "contact":            "Peyvendǐ",
+  "advertise":          "Rěklam",
+  "donate":             "Hawkarǐ",
+  "google_owns_google": "GOOGLE army těcarǐ companiyay 'Google' iye.",
 
-  setup: {
-    type_question: "Pirsiyarěk binusin ,le ser aw dogmeyey clǐk biken.",
-    share_link:    "Ew lǐnkey be ěştirak daněn."
+  "setup": {
+    "type_question": "Pirsiyarěk binusin ,le ser aw dogmeyey clǐk biken.",
+    "share_link":    "Ew lǐnkey be ěştirak daněn."
   },
 
-  play: {
-    step_1: "Hewlǐ 1:Pirsiyareketan binusin",
-    step_2: "Hewlǐ 2:Clǐk le dogmey geran biken",
-    pwnage: "Zor naxoş bu?",
-    nice:   "Ewe hasane."
+  "play": {
+    "step_1": "Hewlǐ 1:Pirsiyareketan binusin",
+    "step_2": "Hewlǐ 2:Clǐk le dogmey geran biken",
+    "pwnage": "Zor naxoş bu?",
+    "nice":   "Ewe hasane."
   },
 
-  link: {
-    copy:      "kopǐ",
-    shorten:   "tinyurl",
-    go:        "bro",
-    reset:     "le serra",
-    creating:  "Çak kirdin...",
-    fetching:  "Wer girtin...",
-    copied:    "URL bo klǐpbord da kopǐ bu",
-    shortened: "TinyURL bo klǐpbord da kopǐ bu"
+  "link": {
+    "copy":      "kopǐ",
+    "shorten":   "tinyurl",
+    "go":        "bro",
+    "reset":     "le serra",
+    "creating":  "Çak kirdin...",
+    "fetching":  "Wer girtin...",
+    "copied":    "URL bo klǐpbord da kopǐ bu",
+    "shortened": "TinyURL bo klǐpbord da kopǐ bu"
   },
 
-  credit:     "Çak kirdin be @coderifous degel @rmm5t.",
-  genesis:    "Hemoy hoy ew kare be dest @coderifous, @tmassing, @rmm5t, @EricStratton, degel @methodvon bowe.",
-  pitch:      "Ewe bo tewawǐ ew kesane ke deyan hewě le bizanin  google da çun bigerěn .",
-  disclaimer: "Hǐç peyvendǐman degel  Google&trade; da be hǐç rěgayek da niye.",
+  "credit":     "Çak kirdin be @coderifous degel @rmm5t.",
+  "genesis":    "Hemoy hoy ew kare be dest @coderifous, @tmassing, @rmm5t, @EricStratton, degel @methodvon bowe.",
+  "pitch":      "Ewe bo tewawǐ ew kesane ke deyan hewě le bizanin  google da çun bigerěn .",
+  "disclaimer": "Hǐç peyvendǐman degel  Google&trade; da be hǐç rěgayek da niye.",
 
-  translated_by: "Vergěraw ba Kak Sǐamendǐ Me'rufǐ me[at]syamand.ir"
+  "translated_by": "Vergěraw ba Kak Sǐamendǐ Me'rufǐ me[at]syamand.ir"
 }

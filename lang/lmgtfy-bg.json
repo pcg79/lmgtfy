@@ -1,43 +1,43 @@
 ﻿{
-  pre_logo:           "дай да",
-  post_logo:          "-на това вместо теб",
-  search_button:      "Търси в Google",
-  lucky_button:       "Чувствам се късметлия",
-  about:              "Относно",
-  privacy:            "Privacy",
-  live:               "На живо",
-  contact:            "Контакт",
-  advertise:          "Рекламирай",
-  donate:             "Дарение",
-  google_owns_google: "GOOGLE е търговска марка на Google Inc.",
+  "pre_logo":           "дай да",
+  "post_logo":          "-на това вместо теб",
+  "search_button":      "Търси в Google",
+  "lucky_button":       "Чувствам се късметлия",
+  "about":              "Относно",
+  "privacy":            "Privacy",
+  "live":               "На живо",
+  "contact":            "Контакт",
+  "advertise":          "Рекламирай",
+  "donate":             "Дарение",
+  "google_owns_google": "GOOGLE е търговска марка на Google Inc.",
 
-  setup: {
-    type_question: "Напиши въпрос и кликни Търси.",
-    share_link:    "Сподели връзката отдолу."
+  "setup": {
+    "type_question": "Напиши въпрос и кликни Търси.",
+    "share_link":    "Сподели връзката отдолу."
   },
 
-  play: {
-    step_1: "Стъпка 1: Напиши твоя въпрос",
-    step_2: "Стъпка 2: Натисни бутона Търси",
-    pwnage: "Толкова ли беше трудно?",
-    nice:   "Доста лесно е."
+  "play": {
+    "step_1": "Стъпка 1: Напиши твоя въпрос",
+    "step_2": "Стъпка 2: Натисни бутона Търси",
+    "pwnage": "Толкова ли беше трудно?",
+    "nice":   "Доста лесно е."
   },
 
-  link: {
-    copy:      "копирай",
-    shorten:   "tinyurl",
-    go:        "посети",
-    reset:     "изчисти",
-    creating:  "Създавам...",
-    fetching:  "Свалям...",
-    copied:    "URL copied to clipboard",
-    shortened: "TinyURL copied to clipboard"
+  "link": {
+    "copy":      "копирай",
+    "shorten":   "tinyurl",
+    "go":        "посети",
+    "reset":     "изчисти",
+    "creating":  "Създавам...",
+    "fetching":  "Свалям...",
+    "copied":    "URL copied to clipboard",
+    "shortened": "TinyURL copied to clipboard"
   },
 
-  credit:     "Създадено от @coderifous и @rmm5t.",
-  genesis:    "Инспирирано по време на обеден разговор с @coderifous, @tmassing, @rmm5t, @EricStratton, и @methodvon.",
-  pitch:      "Този сайт е за всички онези хора, които намират за по-удобно да те занимават с техните въпроси, вместо да потърсят самички отговори им в Google.",
-  disclaimer: "Не е свързано с  Google&trade; по никакъв начин.",
+  "credit":     "Създадено от @coderifous и @rmm5t.",
+  "genesis":    "Инспирирано по време на обеден разговор с @coderifous, @tmassing, @rmm5t, @EricStratton, и @methodvon.",
+  "pitch":      "Този сайт е за всички онези хора, които намират за по-удобно да те занимават с техните въпроси, вместо да потърсят самички отговори им в Google.",
+  "disclaimer": "Не е свързано с  Google&trade; по никакъв начин.",
 
-  translated_by: "Преведено от Николай Кубарелов"
+  "translated_by": "Преведено от Николай Кубарелов"
 }

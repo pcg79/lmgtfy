@@ -1,43 +1,43 @@
 {
-  pre_logo:           "lass mich das für dich",
-  post_logo:          "n",
-  search_button:      "Google-Suche",
-  lucky_button:       "Auf gut Glück!",
-  about:              "Über uns",
-  privacy:            "Privacy",
-  live:               "Live Stream",
-  contact:            "Kontakt",
-  advertise:          "Werben",
-  donate:             "Spenden",
-  google_owns_google: "GOOGLE ist ein eingetragenes Warenzeichen von Google Inc.",
+  "pre_logo":           "lass mich das für dich",
+  "post_logo":          "n",
+  "search_button":      "Google-Suche",
+  "lucky_button":       "Auf gut Glück!",
+  "about":              "Über uns",
+  "privacy":            "Privacy",
+  "live":               "Live Stream",
+  "contact":            "Kontakt",
+  "advertise":          "Werben",
+  "donate":             "Spenden",
+  "google_owns_google": "GOOGLE ist ein eingetragenes Warenzeichen von Google Inc.",
 
-  setup: {
-    type_question: "Frage eingeben, Button anklicken.",
-    share_link:    "Link unten weitergeben."
+  "setup": {
+    "type_question": "Frage eingeben, Button anklicken.",
+    "share_link":    "Link unten weitergeben."
   },
 
-  play: {
-    step_1: "Schritt 1: Frage eingeben",
-    step_2: "Schritt 2: Such-Button anklicken",
-    pwnage: "War das so schwierig?",
-    nice:   "Es ist so einfach."
+  "play": {
+    "step_1": "Schritt 1: Frage eingeben",
+    "step_2": "Schritt 2: Such-Button anklicken",
+    "pwnage": "War das so schwierig?",
+    "nice":   "Es ist so einfach."
   },
 
-  link: {
-    copy:      "kopieren",
-    shorten:   "kürzen",
-    go:        "los",
-    reset:     "reset",
-    creating:  "Erstellen...",
-    fetching:  "Abholen...",
-    copied:    "URL in Zwischenablage kopiert",
-    shortened: "TinyURL in Zwischenablage kopiert"
+  "link": {
+    "copy":      "kopieren",
+    "shorten":   "kürzen",
+    "go":        "los",
+    "reset":     "reset",
+    "creating":  "Erstellen...",
+    "fetching":  "Abholen...",
+    "copied":    "URL in Zwischenablage kopiert",
+    "shortened": "TinyURL in Zwischenablage kopiert"
   },
 
-  credit:     "Erstellt von @coderifous, Unterstützung von @rmm5t.",
-  genesis:    "Während einer Unterhaltung beim Mittagessen mit @coderifous, @tmassing, @rmm5t, @EricStratton, und @methodvon entstanden.",
-  pitch:      "Für all die Leute, die lieber dich mit ihren Fragen nerven, statt selbst mal mit Google zu suchen.",
-  disclaimer: "In keinster Weise mit Google&trade; assoziiert.",
+  "credit":     "Erstellt von @coderifous, Unterstützung von @rmm5t.",
+  "genesis":    "Während einer Unterhaltung beim Mittagessen mit @coderifous, @tmassing, @rmm5t, @EricStratton, und @methodvon entstanden.",
+  "pitch":      "Für all die Leute, die lieber dich mit ihren Fragen nerven, statt selbst mal mit Google zu suchen.",
+  "disclaimer": "In keinster Weise mit Google&trade; assoziiert.",
 
-  translated_by: "Übersetzt von @dertyp und @vims"
+  "translated_by": "Übersetzt von @dertyp und @vims"
 }

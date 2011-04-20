@@ -1,43 +1,43 @@
 ﻿{
-  pre_logo:           "let me",
-  post_logo:          "that for you",
-  search_button:      "Google 検索",
-  lucky_button:       "I'm Feeling Lucky",
-  about:              "これは何？",
-  privacy:            "プライバシー",
-  live:               "Live Stream",
-  contact:            "メール",
-  advertise:          "広告を載せる",
-  donate:             "寄付",
-  google_owns_google: "GOOGLE　は、Google Incの商標登録です。",
+  "pre_logo":           "let me",
+  "post_logo":          "that for you",
+  "search_button":      "Google 検索",
+  "lucky_button":       "I'm Feeling Lucky",
+  "about":              "これは何？",
+  "privacy":            "プライバシー",
+  "live":               "Live Stream",
+  "contact":            "メール",
+  "advertise":          "広告を載せる",
+  "donate":             "寄付",
+  "google_owns_google": "GOOGLE　は、Google Incの商標登録です。",
 
-  setup: {
-    type_question: "検索させたい言葉を入力",
-    share_link:    "下記のリンクを公開してください"
+  "setup": {
+    "type_question": "検索させたい言葉を入力",
+    "share_link":    "下記のリンクを公開してください"
   },
 
-  play: {
-    step_1: "Step 1: 知りたいことを入力する。",
-    step_2: "Step 2: Google 検索をクリック。",
-    pwnage: "ね、簡単でしょう？",
-    nice:   "すごく簡単です。"
+  "play": {
+    "step_1": "Step 1: 知りたいことを入力する。",
+    "step_2": "Step 2: Google 検索をクリック。",
+    "pwnage": "ね、簡単でしょう？",
+    "nice":   "すごく簡単です。"
   },
 
-  link: {
-    copy:      "コピー",
-    shorten:   "tinyurl",
-    go:        "アクセス",
-    reset:     "リセット",
-    creating:  "作成中...",
-    fetching:  "短縮中...",
-    copied:    "URLをクリップボードにコピー",
-    shortened: "TinyURLをクリップボードにコピー"
+  "link": {
+    "copy":      "コピー",
+    "shorten":   "tinyurl",
+    "go":        "アクセス",
+    "reset":     "リセット",
+    "creating":  "作成中...",
+    "fetching":  "短縮中...",
+    "copied":    "URLをクリップボードにコピー",
+    "shortened": "TinyURLをクリップボードにコピー"
   },
 
-  credit:     "@coderifous　と　@rmm5t　によって作成されました。",
-  genesis:    "Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
-  pitch:      "これは、質問を自分で調べずに質問する人のために、Google検索の便利さを「簡単に」伝えるものです！",
-  disclaimer: "Google&trade;とは、全く関係の無いサービスです。",
+  "credit":     "@coderifous　と　@rmm5t　によって作成されました。",
+  "genesis":    "Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
+  "pitch":      "これは、質問を自分で調べずに質問する人のために、Google検索の便利さを「簡単に」伝えるものです！",
+  "disclaimer": "Google&trade;とは、全く関係の無いサービスです。",
 
-  translated_by: "Translated by Yomogimochi"
+  "translated_by": "Translated by Yomogimochi"
 }

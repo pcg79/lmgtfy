@@ -1,43 +1,43 @@
 {
-  pre_logo:           "let me",
-  post_logo:          "that for you",
-  search_button:      "Search Google",
-  lucky_button:       "I'm Feeling Lucky",
-  about:              "About",
-  privacy:            "Privacy",
-  live:               "Live Stream",
-  contact:            "Contact",
-  advertise:          "Advertise",
-  donate:             "Donate",
-  google_owns_google: "GOOGLE is a trademark of Google Inc.",
+  "pre_logo":           "let me",
+  "post_logo":          "that for you",
+  "search_button":      "Search Google",
+  "lucky_button":       "I'm Feeling Lucky",
+  "about":              "About",
+  "privacy":            "Privacy",
+  "live":               "Live Stream",
+  "contact":            "Contact",
+  "advertise":          "Advertise",
+  "donate":             "Donate",
+  "google_owns_google": "GOOGLE is a trademark of Google Inc.",
 
-  setup: {
-    type_question: "Type a question, click a button.",
-    share_link:    "Share the link below."
+  "setup": {
+    "type_question": "Type a question, click a button.",
+    "share_link":    "Share the link below."
   },
 
-  play: {
-    step_1: "Step 1: Type in your question",
-    step_2: "Step 2: Click the Search button",
-    pwnage: "Was that so hard?",
-    nice:   "It's that easy."
+  "play": {
+    "step_1": "Step 1: Type in your question",
+    "step_2": "Step 2: Click the Search button",
+    "pwnage": "Was that so hard?",
+    "nice":   "It's that easy."
   },
 
-  link: {
-    copy:      "copy",
-    shorten:   "tinyurl",
-    go:        "go",
-    reset:     "reset",
-    creating:  "Creating...",
-    fetching:  "Fetching...",
-    copied:    "URL copied to clipboard",
-    shortened: "TinyURL copied to clipboard"
+  "link": {
+    "copy":      "copy",
+    "shorten":   "tinyurl",
+    "go":        "go",
+    "reset":     "reset",
+    "creating":  "Creating...",
+    "fetching":  "Fetching...",
+    "copied":    "URL copied to clipboard",
+    "shortened": "TinyURL copied to clipboard"
   },
 
-  credit:     "Created by @coderifous and @rmm5t.",
-  genesis:    "Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
-  pitch:      "This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.",
-  disclaimer: "Not associated with Google&trade; in any way.",
+  "credit":     "Created by @coderifous and @rmm5t.",
+  "genesis":    "Inspired during a lunch conversation with @coderifous, @tmassing, @rmm5t, @EricStratton, and @methodvon.",
+  "pitch":      "This is for all those people that find it more convenient to bother you with their question rather than google it for themselves.",
+  "disclaimer": "Not associated with Google&trade; in any way.",
 
-  translated_by: "Translated by <Your Name or @twitter_username Goes Here>"
+  "translated_by": "Translated by <Your Name or @twitter_username Goes Here>"
 }

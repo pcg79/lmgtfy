@@ -1,42 +1,42 @@
 {
-  pre_logo:           "deixe-me usar o",
-  post_logo:          "para você",
-  search_button:      "Pesquisa Google",
-  lucky_button:       "Estou com sorte",
-  about:              "Sobre",
-  privacy:            "Privacy",
-  live:               "Live Stream",
-  contact:            "Contato",
-  advertise:          "Anuncie",
-  donate:             "Doe",
-  google_owns_google: "GOOGLE é uma marca registrada de Google Inc.",
+  "pre_logo":           "deixe-me usar o",
+  "post_logo":          "para você",
+  "search_button":      "Pesquisa Google",
+  "lucky_button":       "Estou com sorte",
+  "about":              "Sobre",
+  "privacy":            "Privacy",
+  "live":               "Live Stream",
+  "contact":            "Contato",
+  "advertise":          "Anuncie",
+  "donate":             "Doe",
+  "google_owns_google": "GOOGLE é uma marca registrada de Google Inc.",
 
-  setup: {
-    type_question: "Digite a pergunta, clique em um botão.",
-    share_link:    "Compartilhe o link abaixo."
+  "setup": {
+    "type_question": "Digite a pergunta, clique em um botão.",
+    "share_link":    "Compartilhe o link abaixo."
   },
 
-  play: {
-    step_1: "Passo 1: Digite sua pergunta",
-    step_2: "Passo 2: Clique no botão de pesquisa",
-    pwnage: "Difícil, né?",
-    nice:   "É muito fácil."
+  "play": {
+    "step_1": "Passo 1: Digite sua pergunta",
+    "step_2": "Passo 2: Clique no botão de pesquisa",
+    "pwnage": "Difícil, né?",
+    "nice":   "É muito fácil."
   },
 
-  link: {
-    copy:      "copiar",
-    shorten:   "tinyurl",
-    go:        "ir",
-    reset:     "refazer",
-    creating:  "Criar...",
-    fetching:  "Buscando...",
-    copied:    "URL copiado para a área de transferência",
-    shortened: "TinyURL copiado para a área de transferência"
+  "link": {
+    "copy":      "copiar",
+    "shorten":   "tinyurl",
+    "go":        "ir",
+    "reset":     "refazer",
+    "creating":  "Criar...",
+    "fetching":  "Buscando...",
+    "copied":    "URL copiado para a área de transferência",
+    "shortened": "TinyURL copiado para a área de transferência"
   },
 
-  credit:     "Criado por @coderifous, contribuições por @rmm5t.",
-  genesis:    "Inspiração vinda de uma conversa durante o almoço com @coderifous, @tmassing, @rmm5t, @EricStratton e @methodvon.",
-  pitch:      "Esta ferramenta é para todas as pessoas que acham mais conveniente te perturbar com a pergunta deles do que ir no google e pesquisar sozinhos.",
-  disclaimer: "Não associado ao Google&trade; de nenhuma forma.",
-  translated_by: "Traduzido por nervosaaa e @tiagoveloso."
+  "credit":     "Criado por @coderifous, contribuições por @rmm5t.",
+  "genesis":    "Inspiração vinda de uma conversa durante o almoço com @coderifous, @tmassing, @rmm5t, @EricStratton e @methodvon.",
+  "pitch":      "Esta ferramenta é para todas as pessoas que acham mais conveniente te perturbar com a pergunta deles do que ir no google e pesquisar sozinhos.",
+  "disclaimer": "Não associado ao Google&trade; de nenhuma forma.",
+  "translated_by": "Traduzido por nervosaaa e @tiagoveloso."
 }

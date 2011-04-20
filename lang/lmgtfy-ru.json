@@ -1,43 +1,43 @@
 {
-  pre_logo:           "Давай я поищу в",
-  post_logo:          "за тебя",
-  search_button:      "Поиск в Google",
-  lucky_button:       "Мне повезёт!",
-  about:              "О сервисе",
-  privacy:            "Privacy",
-  live:               "Live Stream",
-  contact:            "Контакты",
-  advertise:          "Реклама",
-  donate:             "Пожертвовать",
-  google_owns_google: "GOOGLE является зарегистрированной торговой маркой Google Inc.",
+  "pre_logo":           "Давай я поищу в",
+  "post_logo":          "за тебя",
+  "search_button":      "Поиск в Google",
+  "lucky_button":       "Мне повезёт!",
+  "about":              "О сервисе",
+  "privacy":            "Privacy",
+  "live":               "Live Stream",
+  "contact":            "Контакты",
+  "advertise":          "Реклама",
+  "donate":             "Пожертвовать",
+  "google_owns_google": "GOOGLE является зарегистрированной торговой маркой Google Inc.",
 
-  setup: {
-    type_question: "Введи запрос, нажми кнопку.",
-    share_link:    "Поделись ссылкой."
+  "setup": {
+    "type_question": "Введи запрос, нажми кнопку.",
+    "share_link":    "Поделись ссылкой."
   },
 
-  play: {
-    step_1: "Шаг 1. Введи запрос.",
-    step_2: "Шаг 2. Нажми кнопку.",
-    pwnage: "Разве это так трудно?",
-    nice:   "Это очень просто."
+  "play": {
+    "step_1": "Шаг 1. Введи запрос.",
+    "step_2": "Шаг 2. Нажми кнопку.",
+    "pwnage": "Разве это так трудно?",
+    "nice":   "Это очень просто."
   },
 
-  link: {
-    copy:      "копировать",
-    shorten:   "короткая ссылка",
-    go:        "перейти",
-    reset:     "Сброс",
-    creating:  "Создание...",
-    fetching:  "Извлечение...",
-    copied:    "Ссылка скопирована в буфер обмена",
-    shortened: "Короткая ссылка скопирована в буфер обмена"
+  "link": {
+    "copy":      "копировать",
+    "shorten":   "короткая ссылка",
+    "go":        "перейти",
+    "reset":     "Сброс",
+    "creating":  "Создание...",
+    "fetching":  "Извлечение...",
+    "copied":    "Ссылка скопирована в буфер обмена",
+    "shortened": "Короткая ссылка скопирована в буфер обмена"
   },
 
-  credit:     "Создано @coderifous при поддержке @rmm5t.",
-  genesis:    "Под вдохновением от обеденного разговора с @coderifous, @tmassing, @rmm5t, @EricStratton, и @methodvon.",
-  pitch:      "Этот сайт создан для людей, которые считают, что лучше побеспокоить вас своими вопросами, нежели самим поискать ответ в Google.",
-  disclaimer: "Сервис не имеет отношения к Google&trade;.",
+  "credit":     "Создано @coderifous при поддержке @rmm5t.",
+  "genesis":    "Под вдохновением от обеденного разговора с @coderifous, @tmassing, @rmm5t, @EricStratton, и @methodvon.",
+  "pitch":      "Этот сайт создан для людей, которые считают, что лучше побеспокоить вас своими вопросами, нежели самим поискать ответ в Google.",
+  "disclaimer": "Сервис не имеет отношения к Google&trade;.",
 
-  translated_by: "Авторы перевода странички на русский язык ProVal и Дима"
+  "translated_by": "Авторы перевода странички на русский язык ProVal и Дима"
 }

@@ -1,43 +1,43 @@
 {
-  pre_logo:           "leisk man",
-  post_logo:          "tai už tave",
-  search_button:      "Google Paieška",
-  lucky_button:       "Man sekasi!",
-  about:              "Apie",
-  privacy:            "Privacy",
-  live:               "Tiesioginis srautas",
-  contact:            "Kontaktai",
-  advertise:          "Reklama",
-  donate:             "Aukoti",
-  google_owns_google: "GOOGLE yra Google Inc prekinis ženklas .",
+  "pre_logo":           "leisk man",
+  "post_logo":          "tai už tave",
+  "search_button":      "Google Paieška",
+  "lucky_button":       "Man sekasi!",
+  "about":              "Apie",
+  "privacy":            "Privacy",
+  "live":               "Tiesioginis srautas",
+  "contact":            "Kontaktai",
+  "advertise":          "Reklama",
+  "donate":             "Aukoti",
+  "google_owns_google": "GOOGLE yra Google Inc prekinis ženklas .",
 
-  setup: {
-    type_question: "Irašykite klausimą, spauskite mygtuką.",
-    share_link:    "Kopijuokite nuoroda žemiau"
+  "setup": {
+    "type_question": "Irašykite klausimą, spauskite mygtuką.",
+    "share_link":    "Kopijuokite nuoroda žemiau"
   },
 
-  play: {
-    step_1: "1 žingsnis: Parašykite klausimą",
-    step_2: "2 žingsnis: Spauskite Google Paieška",
-    pwnage: "Tai negi buvo taip sunku?",
-    nice:   "Tai juk taip lengva."
+  "play": {
+    "step_1": "1 žingsnis: Parašykite klausimą",
+    "step_2": "2 žingsnis: Spauskite Google Paieška",
+    "pwnage": "Tai negi buvo taip sunku?",
+    "nice":   "Tai juk taip lengva."
   },
 
-  link: {
-    copy:      "kopijuoti",
-    shorten:   "trumpinti adresą",
-    go:        "eiti",
-    reset:     "anuliuoti",
-    creating:  "Kuriama...",
-    fetching:  "Trumpinama...",
-    copied:    "Nuoroda nukopijuota į adresyną",
-    shortened: "Sutrumpintas adresas nukopijuotas į adresyną"
+  "link": {
+    "copy":      "kopijuoti",
+    "shorten":   "trumpinti adresą",
+    "go":        "eiti",
+    "reset":     "anuliuoti",
+    "creating":  "Kuriama...",
+    "fetching":  "Trumpinama...",
+    "copied":    "Nuoroda nukopijuota į adresyną",
+    "shortened": "Sutrumpintas adresas nukopijuotas į adresyną"
   },
 
-  credit:     "Sukurta pagal @coderifous ir @rmm5t.",
-  genesis:    "Įkvėpimas įgautas per pietų pokalbį su @coderifous, @tmassing, @rmm5t, @EricStratton ir @methodvon.",
-  pitch:      "Projektas yra visiems žmonėms, kurie nori tinkamai išnaudoti sunkumus su užduodamais klausimais, į kuriuos gali atsakyti Google",
-  disclaimer: "Nėra susijusi su Google&trade;",
+  "credit":     "Sukurta pagal @coderifous ir @rmm5t.",
+  "genesis":    "Įkvėpimas įgautas per pietų pokalbį su @coderifous, @tmassing, @rmm5t, @EricStratton ir @methodvon.",
+  "pitch":      "Projektas yra visiems žmonėms, kurie nori tinkamai išnaudoti sunkumus su užduodamais klausimais, į kuriuos gali atsakyti Google",
+  "disclaimer": "Nėra susijusi su Google&trade;",
 
-  translated_by: "Išvertė Laurynas"
+  "translated_by": "Išvertė Laurynas"
 }

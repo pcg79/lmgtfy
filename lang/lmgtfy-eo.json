@@ -1,43 +1,43 @@
 {
-  pre_logo:           "lasu min",
-  post_logo:          "-i tion por vi",
-  search_button:      "Google-Serĉo",
-  lucky_button:       "Mi Bonŝancas",
-  about:              "Pri paĝo",
-  privacy:            "Privacy",
-  live:               "Aktualaj serĉoj",
-  contact:            "Kontakti",
-  advertise:          "Reklami",
-  donate:             "Donaci",
-  google_owns_google: "GOOGLE estas komerca marko de Google Inc.",
+  "pre_logo":           "lasu min",
+  "post_logo":          "-i tion por vi",
+  "search_button":      "Google-Serĉo",
+  "lucky_button":       "Mi Bonŝancas",
+  "about":              "Pri paĝo",
+  "privacy":            "Privacy",
+  "live":               "Aktualaj serĉoj",
+  "contact":            "Kontakti",
+  "advertise":          "Reklami",
+  "donate":             "Donaci",
+  "google_owns_google": "GOOGLE estas komerca marko de Google Inc.",
 
-  setup: {
-    type_question: "Tajpu demandon, klaku butonon.",
-    share_link:    "Dissendu la suban ligilon."
+  "setup": {
+    "type_question": "Tajpu demandon, klaku butonon.",
+    "share_link":    "Dissendu la suban ligilon."
   },
 
-  play: {
-    step_1: "Paŝo 1: Entajpu vian demandon",
-    step_2: "Paŝo 2: Klaku la Google-Serĉo butonon",
-    pwnage: "Ĉu tio vere estis tiom malfacila?",
-    nice:   "Estas tiom facile."
+  "play": {
+    "step_1": "Paŝo 1: Entajpu vian demandon",
+    "step_2": "Paŝo 2: Klaku la Google-Serĉo butonon",
+    "pwnage": "Ĉu tio vere estis tiom malfacila?",
+    "nice":   "Estas tiom facile."
   },
 
-  link: {
-    copy:      "kopii",
-    shorten:   "tinyurl",
-    go:        "ek!",
-    reset:     "reŝargi",
-    creating:  "Kreado...",
-    fetching:  "Alportado...",
-    copied:    "URL kopiita al poŝo",
-    shortened: "TinyURL kopiita al poŝo"
+  "link": {
+    "copy":      "kopii",
+    "shorten":   "tinyurl",
+    "go":        "ek!",
+    "reset":     "reŝargi",
+    "creating":  "Kreado...",
+    "fetching":  "Alportado...",
+    "copied":    "URL kopiita al poŝo",
+    "shortened": "TinyURL kopiita al poŝo"
   },
 
-  credit:     "Kreita de @coderifous kaj @rmm5t.",
-  genesis:    "Inspirita dum tagmanĝa konversacio inter @coderifous, @tmassing, @rmm5t, @EricStratton, kaj @methodvon.",
-  pitch:      "Tio ĉi estas por ĉiuj homoj, kiuj ĝenas vin per siaj demandoj anstataŭ ol mem gugli.",
-  disclaimer: "Neniel asociata kun Google&trade;.",
+  "credit":     "Kreita de @coderifous kaj @rmm5t.",
+  "genesis":    "Inspirita dum tagmanĝa konversacio inter @coderifous, @tmassing, @rmm5t, @EricStratton, kaj @methodvon.",
+  "pitch":      "Tio ĉi estas por ĉiuj homoj, kiuj ĝenas vin per siaj demandoj anstataŭ ol mem gugli.",
+  "disclaimer": "Neniel asociata kun Google&trade;.",
 
-  translated_by: "Tradukita de Viliam Búr, polurita de Tim Morley"
+  "translated_by": "Tradukita de Viliam Búr, polurita de Tim Morley"
 }

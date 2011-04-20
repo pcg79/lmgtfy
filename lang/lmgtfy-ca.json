@@ -1,43 +1,43 @@
 {
-  pre_logo:           "deixa'm que et cerqui això al",
-  post_logo:          "",
-  search_button:      "Cerca amb Google",
-  lucky_button:       "Segur que tinc sort",
-  about:              "Quant a",
-  privacy:            "Privadesa",
-  live:               "Live Stream",
-  contact:            "Contacta'ns",
-  advertise:          "Publicitat",
-  donate:             "Donar",
-  google_owns_google: "GOOGLE és una marca registrada de Google Inc.",
+  "pre_logo":           "deixa'm que et cerqui això al",
+  "post_logo":          "",
+  "search_button":      "Cerca amb Google",
+  "lucky_button":       "Segur que tinc sort",
+  "about":              "Quant a",
+  "privacy":            "Privadesa",
+  "live":               "Live Stream",
+  "contact":            "Contacta'ns",
+  "advertise":          "Publicitat",
+  "donate":             "Donar",
+  "google_owns_google": "GOOGLE és una marca registrada de Google Inc.",
 
-  setup: {
-    type_question: "Escriu una pregunta i fes clic al botó.",
-    share_link:    "Comparteix l'enllaç de sota."
+  "setup": {
+    "type_question": "Escriu una pregunta i fes clic al botó.",
+    "share_link":    "Comparteix l'enllaç de sota."
   },
 
-  play: {
-    step_1: "Pas 1: Escriu la teva pregunta",
-    step_2: "Pas 2: Fes clic al botó buscar",
-    pwnage: "Realment era tan difícil?",
-    nice:   "És així de fàcil."
+  "play": {
+    "step_1": "Pas 1: Escriu la teva pregunta",
+    "step_2": "Pas 2: Fes clic al botó buscar",
+    "pwnage": "Realment era tan difícil?",
+    "nice":   "És així de fàcil."
   },
 
-  link: {
-    copy:      "copiar",
-    shorten:   "tinyurl",
-    go:        "anar",
-    reset:     "refer",
-    creating:  "Crear...",
-    fetching:  "Obtenció...",
-    copied:    "URL copiat al porta-retalls",
-    shortened: "TinyURL copiat al porta-retalls"
+  "link": {
+    "copy":      "copiar",
+    "shorten":   "tinyurl",
+    "go":        "anar",
+    "reset":     "refer",
+    "creating":  "Crear...",
+    "fetching":  "Obtenció...",
+    "copied":    "URL copiat al porta-retalls",
+    "shortened": "TinyURL copiat al porta-retalls"
   },
 
-  credit:     "Creat per @coderifous, amb contribucions de @rmm5t.",
-  genesis:    "Ideat en un dinar amb @coderifous, @tmassing, @rmm5t, @EricStratton, i @methodvon.",
-  pitch:      "Això és per a totes les persones que pensen que és millor molestar-te amb les seves preguntes abans de buscar a google.",
-  disclaimer: "No tenim res a veure amb Google&trade;.",
+  "credit":     "Creat per @coderifous, amb contribucions de @rmm5t.",
+  "genesis":    "Ideat en un dinar amb @coderifous, @tmassing, @rmm5t, @EricStratton, i @methodvon.",
+  "pitch":      "Això és per a totes les persones que pensen que és millor molestar-te amb les seves preguntes abans de buscar a google.",
+  "disclaimer": "No tenim res a veure amb Google&trade;.",
 
-  translated_by: "Traduït per @daxtoor."
+  "translated_by": "Traduït per @daxtoor."
 }

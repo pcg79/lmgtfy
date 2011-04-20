@@ -1,43 +1,43 @@
 {
-  pre_logo:           "naj z",
-  post_logo:          "-om poiščem to za tebe",
-  search_button:      "Iskanje Google",
-  lucky_button:       "Klik na srečo",
-  about:              "O nas",
-  privacy:            "Privacy",
-  live:               "Live iskanje",
-  contact:            "Kontakt",
-  advertise:          "Oglašujte",
-  donate:             "Donirajte",
-  google_owns_google: "GOOGLE je blagovna znamka Google Inc.",
+  "pre_logo":           "naj z",
+  "post_logo":          "-om poiščem to za tebe",
+  "search_button":      "Iskanje Google",
+  "lucky_button":       "Klik na srečo",
+  "about":              "O nas",
+  "privacy":            "Privacy",
+  "live":               "Live iskanje",
+  "contact":            "Kontakt",
+  "advertise":          "Oglašujte",
+  "donate":             "Donirajte",
+  "google_owns_google": "GOOGLE je blagovna znamka Google Inc.",
 
-  setup: {
-    type_question: "Vpišite vprašanje, kliknite na gumb.",
-    share_link:    "Delite link spodaj."
+  "setup": {
+    "type_question": "Vpišite vprašanje, kliknite na gumb.",
+    "share_link":    "Delite link spodaj."
   },
 
-  play: {
-    step_1: "Korak 1: Vpišite vprašanje.",
-    step_2: "Korak 2: Pritisnite tipko za iskanje.",
-    pwnage: "Je bilo to tako težko?",
-    nice:   "Pa tako je enostavno."
+  "play": {
+    "step_1": "Korak 1: Vpišite vprašanje.",
+    "step_2": "Korak 2: Pritisnite tipko za iskanje.",
+    "pwnage": "Je bilo to tako težko?",
+    "nice":   "Pa tako je enostavno."
   },
 
-  link: {
-    copy:      "kopiraj",
-    shorten:   "skrajšaj url",
-    go:        "go",
-    reset:     "reset",
-    creating:  "Izdelujem...",
-    fetching:  "Stiskam...",
-    copied:    "URL kopiran v odložišče",
-    shortened: "TinyURL kopiran v odložišče"
+  "link": {
+    "copy":      "kopiraj",
+    "shorten":   "skrajšaj url",
+    "go":        "go",
+    "reset":     "reset",
+    "creating":  "Izdelujem...",
+    "fetching":  "Stiskam...",
+    "copied":    "URL kopiran v odložišče",
+    "shortened": "TinyURL kopiran v odložišče"
   },
 
-  credit:     "Izdelava: @coderifous in @rmm5t.",
-  genesis:    "Ideja je prišla na dan v pogovoru pri kosilu med: @coderifous, @tmassing, @rmm5t, @EricStratton, im @methodvon.",
-  pitch:      "Stran je namenjena tistim, ki raje tratijo vaš čas s vprašanji, kot da bi sami kaj poiskali po Googlu.",
-  disclaimer: "Ni v nobeni povezavi z Google&trade;.",
+  "credit":     "Izdelava: @coderifous in @rmm5t.",
+  "genesis":    "Ideja je prišla na dan v pogovoru pri kosilu med: @coderifous, @tmassing, @rmm5t, @EricStratton, im @methodvon.",
+  "pitch":      "Stran je namenjena tistim, ki raje tratijo vaš čas s vprašanji, kot da bi sami kaj poiskali po Googlu.",
+  "disclaimer": "Ni v nobeni povezavi z Google&trade;.",
 
-  translated_by: "Prevedel Timi Lah, Cvetko Pirš"
+  "translated_by": "Prevedel Timi Lah, Cvetko Pirš"
 }

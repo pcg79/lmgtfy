@@ -1,43 +1,43 @@
 {
-  pre_logo:           "sige na nga i-",
-  post_logo:          "ko para sa inyo",
-  search_button:      "Hanapin sa Google",
-  lucky_button:       "Sinusuwerte ako",
-  about:              "Ano ito",
-  privacy:            "Privacy",
-  live:               "Live Stream",
-  contact:            "Makipag-ugnayan",
-  advertise:          "Magpa-advertise!",
-  donate:             "Mag-Donate",
-  google_owns_google: "GOOGLE ay tatak pagmamay-ari ng Google Inc.",
+  "pre_logo":           "sige na nga i-",
+  "post_logo":          "ko para sa inyo",
+  "search_button":      "Hanapin sa Google",
+  "lucky_button":       "Sinusuwerte ako",
+  "about":              "Ano ito",
+  "privacy":            "Privacy",
+  "live":               "Live Stream",
+  "contact":            "Makipag-ugnayan",
+  "advertise":          "Magpa-advertise!",
+  "donate":             "Mag-Donate",
+  "google_owns_google": "GOOGLE ay tatak pagmamay-ari ng Google Inc.",
 
-  setup: {
-    type_question: "Itayp ang tanong, tapos, pindutin ang button.",
-    share_link:    "Ibigay ang link sa baba."
+  "setup": {
+    "type_question": "Itayp ang tanong, tapos, pindutin ang button.",
+    "share_link":    "Ibigay ang link sa baba."
   },
 
-  play: {
-    step_1: "Una: Itayp ang tanong",
-    step_2: "Pangalawa: Pindutin ang button",
-    pwnage: "Mahirap ba iyon?",
-    nice:   "Ganun lang kadali iyon."
+  "play": {
+    "step_1": "Una: Itayp ang tanong",
+    "step_2": "Pangalawa: Pindutin ang button",
+    "pwnage": "Mahirap ba iyon?",
+    "nice":   "Ganun lang kadali iyon."
   },
 
-  link: {
-    copy:      "kopya",
-    shorten:   "tinyurl",
-    go:        "sige",
-    reset:     "ulitin",
-    creating:  "Sandali lang...",
-    fetching:  "Kinukuha na...",
-    copied:    "Ang URL ay nakopya na sa clipboard",
-    shortened: "Ang TinyURL ay nakopya na sa clipboard"
+  "link": {
+    "copy":      "kopya",
+    "shorten":   "tinyurl",
+    "go":        "sige",
+    "reset":     "ulitin",
+    "creating":  "Sandali lang...",
+    "fetching":  "Kinukuha na...",
+    "copied":    "Ang URL ay nakopya na sa clipboard",
+    "shortened": "Ang TinyURL ay nakopya na sa clipboard"
   },
 
-  credit:     "Gawa nina @coderifous and @rmm5t.",
-  genesis:    "Nagsimula sa isang usapan habang kumakain ng tanghalian sina @coderifous, @tmassing, @rmm5t, @EricStratton, at @methodvon.",
-  pitch:      "Ito ay para sa mga taong mas gustong istorbohin ka ng tanong kaysa hanapin nila sa Google ang mga sagot.",
-  disclaimer: "Walang koneksyon sa Google&trade; ng kahit ano pa man.",
+  "credit":     "Gawa nina @coderifous and @rmm5t.",
+  "genesis":    "Nagsimula sa isang usapan habang kumakain ng tanghalian sina @coderifous, @tmassing, @rmm5t, @EricStratton, at @methodvon.",
+  "pitch":      "Ito ay para sa mga taong mas gustong istorbohin ka ng tanong kaysa hanapin nila sa Google ang mga sagot.",
+  "disclaimer": "Walang koneksyon sa Google&trade; ng kahit ano pa man.",
 
-  translated_by: "Translated by Rose ng ABIT Pilipinas and PBCNX of The All-Pinoy GSM Forum"
+  "translated_by": "Translated by Rose ng ABIT Pilipinas and PBCNX of The All-Pinoy GSM Forum"
 }

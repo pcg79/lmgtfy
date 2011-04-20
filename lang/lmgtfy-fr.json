@@ -1,43 +1,43 @@
 ﻿{
-  pre_logo:           "Laisse-moi te trouver ça avec",
-  post_logo:          "",
-  search_button:      "Recherche Google",
-  lucky_button:       "J'ai de la chance",
-  about:              "A Propos",
-  privacy:            "Privacy",
-  live:               "Live Stream",
-  contact:            "Contact",
-  advertise:          "Annonceurs",
-  donate:             "Faire un don",
-  google_owns_google: "GOOGLE est une marque de Google Inc.",
+  "pre_logo":           "Laisse-moi te trouver ça avec",
+  "post_logo":          "",
+  "search_button":      "Recherche Google",
+  "lucky_button":       "J'ai de la chance",
+  "about":              "A Propos",
+  "privacy":            "Privacy",
+  "live":               "Live Stream",
+  "contact":            "Contact",
+  "advertise":          "Annonceurs",
+  "donate":             "Faire un don",
+  "google_owns_google": "GOOGLE est une marque de Google Inc.",
 
-  setup: {
-    type_question: "Tapez une question et cliquez sur l'un des boutons.",
-    share_link:    "Utilisez le lien ci-dessous."
+  "setup": {
+    "type_question": "Tapez une question et cliquez sur l'un des boutons.",
+    "share_link":    "Utilisez le lien ci-dessous."
   },
 
-  play: {
-    step_1: "Etape 1: Tapez votre question",
-    step_2: "Etape 2: Cliquez sur le bouton Recherche",
-    pwnage: "C'était si dur que ça ?",
-    nice:   "C'est aussi simple que ça."
+  "play": {
+    "step_1": "Etape 1: Tapez votre question",
+    "step_2": "Etape 2: Cliquez sur le bouton Recherche",
+    "pwnage": "C'était si dur que ça ?",
+    "nice":   "C'est aussi simple que ça."
   },
 
-  link: {
-    copy:      "copier",
-    shorten:   "tinyurl",
-    go:        "suivre",
-    reset:     "refaire",
-    creating:  "Création...",
-    fetching:  "De travail...",
-    copied:    "URL copiée dans le presse-papier",
-    shortened: "TinyURL copiée dans le presse-papier"
+  "link": {
+    "copy":      "copier",
+    "shorten":   "tinyurl",
+    "go":        "suivre",
+    "reset":     "refaire",
+    "creating":  "Création...",
+    "fetching":  "De travail...",
+    "copied":    "URL copiée dans le presse-papier",
+    "shortened": "TinyURL copiée dans le presse-papier"
   },
 
-  credit:     "Créé par @coderifous, avec la participation de @rmm5t.",
-  genesis:    "Imaginé durant un déjeuner avec @coderifous, @tmassing, @rmm5t, @EricStratton, et @methodvon.",
-  pitch:      "Ce site est destiné à toutes les personnes qui préfèrent vous déranger avec leurs questions plutôt que de chercher par eux-mêmes.",
-  disclaimer: "Ce site n'est lié à Google&trade; en aucune façon",
+  "credit":     "Créé par @coderifous, avec la participation de @rmm5t.",
+  "genesis":    "Imaginé durant un déjeuner avec @coderifous, @tmassing, @rmm5t, @EricStratton, et @methodvon.",
+  "pitch":      "Ce site est destiné à toutes les personnes qui préfèrent vous déranger avec leurs questions plutôt que de chercher par eux-mêmes.",
+  "disclaimer": "Ce site n'est lié à Google&trade; en aucune façon",
 
-  translated_by: "Traduit par Antoine et Norbz"
+  "translated_by": "Traduit par Antoine et Norbz"
 }

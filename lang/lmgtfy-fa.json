@@ -1,44 +1,44 @@
 ﻿{
-  pre_logo:           "بذار من برای تو",
-  post_logo:          "کنم",
-  search_button:      "جستجوی گوگل",
-  lucky_button:       "من خوش‌شانسم",
-  about:              "درباره",
-  privacy:            "حریم",
-  live:               "گزارش زنده",
-  contact:            "ارتباط با ما",
-  advertise:          "Advertise",
-  donate:             "هدیه دادن",
-  google_owns_google: "علامت تجاری شرکت گوگل می‌باشد GOOGLE",
+  "pre_logo":           "بذار من برای تو",
+  "post_logo":          "کنم",
+  "search_button":      "جستجوی گوگل",
+  "lucky_button":       "من خوش‌شانسم",
+  "about":              "درباره",
+  "privacy":            "حریم",
+  "live":               "گزارش زنده",
+  "contact":            "ارتباط با ما",
+  "advertise":          "Advertise",
+  "donate":             "هدیه دادن",
+  "google_owns_google": "علامت تجاری شرکت گوگل می‌باشد GOOGLE",
 
-  setup: {
-    type_question: "سوال را تایپ کرده، روی دکمه کلیک کنید",
-    share_link:    ".لینک زیر را به اشتراک بگذارید"
+  "setup": {
+    "type_question": "سوال را تایپ کرده، روی دکمه کلیک کنید",
+    "share_link":    ".لینک زیر را به اشتراک بگذارید"
   },
 
-  play: {
-    step_1: "قدم اول: سؤال خود را بنویسید",
-    step_2: ".قدم دوم: روی دکمه‌ی جستجو کلیک کنید",
-    pwnage: "خیلی سخت بود؟",
-    nice:   ".به همین سادگی"
+  "play": {
+    "step_1": "قدم اول: سؤال خود را بنویسید",
+    "step_2": ".قدم دوم: روی دکمه‌ی جستجو کلیک کنید",
+    "pwnage": "خیلی سخت بود؟",
+    "nice":   ".به همین سادگی"
   },
 
-  link: {
-    copy:      "کپی",
-    shorten:   "tinyurl",
-    go:        "بـرو",
-    reset:     "بازگشت",
-    creating:  "...در حال ساختن",
-    fetching:  "...در حال بررسی",
-    copied:    "به کلیپ‌بُرد کپی شد URL آدرس",
-    shortened: "به کلیپ‌بُرد کپی شد URL آدرس"
+  "link": {
+    "copy":      "کپی",
+    "shorten":   "tinyurl",
+    "go":        "بـرو",
+    "reset":     "بازگشت",
+    "creating":  "...در حال ساختن",
+    "fetching":  "...در حال بررسی",
+    "copied":    "به کلیپ‌بُرد کپی شد URL آدرس",
+    "shortened": "به کلیپ‌بُرد کپی شد URL آدرس"
   },
 
-  credit:     "@coderifous و @rmm5t ساخته شده توسط",
-  genesis:    "سر سفره ی ناهار به ذهنشان رسید @coderifous و @tmassing ، @rmm5t ، @EricStratton ، @methodvon ایده‌ی این سایت حین مکامله",
-  pitch:      ".این سایت برای آن دسته از افرادی‌ست که برای بر هم زدن آسایش شما، پیش از پرسیدن سوال جستجو نمی‌کنند",
-  disclaimer: "این سایت به هیچ عنوان با شرکت گوگل مرتبط نیست",
+  "credit":     "@coderifous و @rmm5t ساخته شده توسط",
+  "genesis":    "سر سفره ی ناهار به ذهنشان رسید @coderifous و @tmassing ، @rmm5t ، @EricStratton ، @methodvon ایده‌ی این سایت حین مکامله",
+  "pitch":      ".این سایت برای آن دسته از افرادی‌ست که برای بر هم زدن آسایش شما، پیش از پرسیدن سوال جستجو نمی‌کنند",
+  "disclaimer": "این سایت به هیچ عنوان با شرکت گوگل مرتبط نیست",
 
-  translated_by: "@ninigondeh ترجمه شده توسط علیرضا میر"
+  "translated_by": "@ninigondeh ترجمه شده توسط علیرضا میر"
 }
 
