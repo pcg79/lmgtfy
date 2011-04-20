@@ -41,7 +41,22 @@ $(function(){
     googleItForThem();
   }
   else
+    loadSponsorship();
     getTheSearchTerms();
+
+  function loadSponsorship() {
+    window.callback = function(data) {
+      var node = $(".sponsor");
+      node.find(".pitch").css("background-image", "url(" + data.image_url + ")");
+      node.find(".title").text(data.title);
+      node.find(".subtitle").text(data.subtitle);
+      node.find(".price").text(data.price.replace(/\.00$/, "").replace("$", ""));
+      node.find(".savings .value").text(data.savings);
+      node.find(".action a").attr("href", data.link);
+      node.fadeIn();
+    };
+    $.getJSON("/ad_response.json?callback=?", function(){})
+  }
 
   function initializeAboutLink() {
     $("a[name=about]").click(function() {
