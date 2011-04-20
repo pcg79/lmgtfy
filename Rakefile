@@ -13,7 +13,7 @@ task :default => [:build, :open] do
 end
 
 task :open do
-  sh("open http://lmgtfy.local/")
+  sh("open http://lmgtfy.dev/")
 end
 
 desc "build the html"
