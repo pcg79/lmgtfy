@@ -98,7 +98,7 @@ $(function(){
       node.find(".pitch").css("background-image", "url(" + data.image_url + ")");
       node.find(".title").text(data.title);
       node.find(".subtitle").text(data.subtitle);
-      node.find(".price").text(data.price.replace(/\.00$/, "").replace("$", ""));
+      node.find(".price").text(data.price.replace(/\.00$/, ""));
       node.find(".savings .value").text(data.savings);
       node.find(".action a").attr("href", data.link);
       node.find(".remaining .value")
