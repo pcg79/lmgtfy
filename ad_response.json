@@ -10,7 +10,7 @@ callback({
   country_code: "US",
   updated_at:    "2011-04-19T05:00:00-04:00",
   published_at:  "2011-04-19T05:00:00-04:00",
-  offer_ends_at: "2011-04-20T07:59:59-04:00",
+  offer_ends_at: "2011-04-29T14:53:00-04:00",
   orders_count: "1,206",
   merchant_name: "Vistaprint",
   categories: "Retail,Other",
