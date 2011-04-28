@@ -120,7 +120,7 @@ $(function(){
   function initializeControls() {
     $('input.copyable').click(function() { $(this).select(); });
     $("#link").hover(function(){ linkButtons.fadeIn("fast"); }, function(){ linkButtons.fadeOut("fast"); });
-    $("#go").click(function(){ window.location = inputLink.val(); return false; });
+    $("#go").click(function(){ window.location.href = inputLink.val(); return false; });
     $("#reset").click(function(){ showTheUrl($(this).attr("url")); return false; });
     $("#tiny").click(function(){
       linkStatus("link.fetching", 0, true);
@@ -136,7 +136,7 @@ $(function(){
       var l = window.location;
       var hostnameMinusSubdomain = l.hostname.match(/[^.]+\.(?:[^.]+)$/)[0];
       var url = l.protocol + "//" + $(this).val() + "." + hostnameMinusSubdomain + l.pathname;
-      window.location = url;
+      window.location.href = url;
     });
   }
 
@@ -300,7 +300,7 @@ $(function(){
         page = google + gentlyEncode(searchString);
       }
 
-      window.location = page;
+      window.location.href = page;
     }
 
     function fixSafariRenderGlitch() {
