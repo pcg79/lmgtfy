@@ -21,6 +21,53 @@ $.localize.data.lmgtfy = {
   }
 };
 
+$.fn.countDown = function() {
+  var self       = this;
+  var targetDate = iso8601(this.attr("data-ends-at"));
+
+  recurseDurationCountdown();
+
+  function recurseDurationCountdown() {
+    var seconds = parseInt((targetDate - new Date()) / 1000);
+    self.text(formatDuration(seconds));
+    if (seconds > 0) {
+      setTimeout(recurseDurationCountdown, 1000);
+    }
+  }
+
+  function formatDuration(seconds) {
+    var hh, mm, ss, days;
+    if (seconds == 0) {
+      return "--:--:--";
+    }
+    else if (seconds > 60 * 60 * 24) {
+      days = parseInt(seconds / 60 / 60 / 24);
+      var suffix = days > 1 ? "s" : "";
+      return days.toString() + " day" + suffix;
+    }
+    else {
+      ss = seconds % 60;
+      mm = parseInt(seconds / 60 % 60);
+      hh = parseInt(seconds / 60 / 60);
+      return hh + ":" + twoDigits(mm) + ":" + twoDigits(ss);
+    }
+  }
+
+  function twoDigits(n) {
+    var prefix = n < 10 ? "0" : "";
+    return prefix + n;
+  }
+
+  function iso8601(str) {
+    var s = $.trim(str);
+    s = s.replace(/\.\d\d\d/,""); // remove milliseconds
+    s = s.replace(/-/,"/").replace(/-/,"/");
+    s = s.replace(/T/," ").replace(/Z/," UTC");
+    s = s.replace(/([\+-]\d\d)\:?(\d\d)/," $1$2"); // -04:00 -> -0400
+    return new Date(s);
+  }
+}
+
 $(function(){
   initializeLocalization();
   initializeAboutLink();
@@ -40,9 +87,10 @@ $(function(){
     $.proMarket("120083", gentlyEncode(searchString));
     googleItForThem();
   }
-  else
+  else {
     loadSponsorship();
     getTheSearchTerms();
+  }
 
   function loadSponsorship() {
     window.callback = function(data) {
@@ -53,6 +101,9 @@ $(function(){
       node.find(".price").text(data.price.replace(/\.00$/, "").replace("$", ""));
       node.find(".savings .value").text(data.savings);
       node.find(".action a").attr("href", data.link);
+      node.find(".remaining .value")
+        .attr("data-ends-at", data.offer_ends_at)
+        .countDown(data.offer_ends_at);
       node.fadeIn();
     };
     $.getJSON("/ad_response.json?callback=?", function(){})
