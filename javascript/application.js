@@ -102,6 +102,7 @@ $(function(){
       node.find(".remaining .value")
         .attr("data-ends-at", data.offer_ends_at)
         .countDown(data.offer_ends_at);
+      node.click(function() { window.location.href = data.link });
       node.fadeIn();
     };
     $.getJSON("http://aff.lmgtfy.com/offers/local.json?callback=?", callback);
