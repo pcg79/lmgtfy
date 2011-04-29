@@ -1,6 +1,6 @@
 callback({
-  title: "Hoboken / Jersey City",
-  subtitle: "$50 to Spend on Office Supplies and Business Cards",
+  region_name: "Hoboken / Jersey City",
+  title: "$50 to Spend on Office Supplies and Business Cards",
   price: "$10.00",
   value: "$50.00",
   savings: "80%",
@@ -8,9 +8,9 @@ callback({
   /*image_url: "http://a3.ak.lscdn.net/imgs/2a019383-943f-4881-be1c-4a1c2e1e6280/280_q60.jpg",*/
   link: "http://deals.livingsocial.com/deals/39377-50-to-spend-on-office-supplies-and-business-cards",
   country_code: "US",
-  updated_at:    "2011-04-19T05:00:00-04:00",
-  published_at:  "2011-04-19T05:00:00-04:00",
-  offer_ends_at: "2011-04-29T14:53:00-04:00",
+  updated_at:    "2011-04-19 05:00:00 UTC",
+  published_at:  "2011-04-19 05:00:00 UTC",
+  offer_ends_at: "2011-04-30 01:47:00 UTC",
   orders_count: "1,206",
   merchant_name: "Vistaprint",
   categories: "Retail,Other",

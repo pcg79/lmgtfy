@@ -23,7 +23,7 @@ $.localize.data.lmgtfy = {
 
 $.fn.countDown = function() {
   var self       = this;
-  var targetDate = iso8601(this.attr("data-ends-at"));
+  var targetDate = dbDate(this.attr("data-ends-at"));
 
   recurseDurationCountdown();
 
@@ -37,7 +37,7 @@ $.fn.countDown = function() {
 
   function formatDuration(seconds) {
     var hh, mm, ss, days;
-    if (seconds == 0) {
+    if (seconds <= 0) {
       return "--:--:--";
     }
     else if (seconds > 60 * 60 * 24) {
@@ -58,12 +58,9 @@ $.fn.countDown = function() {
     return prefix + n;
   }
 
-  function iso8601(str) {
+  function dbDate(str) {
     var s = $.trim(str);
-    s = s.replace(/\.\d\d\d/,""); // remove milliseconds
     s = s.replace(/-/,"/").replace(/-/,"/");
-    s = s.replace(/T/," ").replace(/Z/," UTC");
-    s = s.replace(/([\+-]\d\d)\:?(\d\d)/," $1$2"); // -04:00 -> -0400
     return new Date(s);
   }
 }
@@ -93,11 +90,12 @@ $(function(){
   }
 
   function loadSponsorship() {
-    window.callback = function(data) {
+    var callback = function(data) {
       var node = $(".sponsor");
-      node.find(".pitch").css("background-image", "url(" + data.image_url + ")");
+      var image_url = data.image_url.replace(/100_q60/, "280_q60");
+      node.find(".pitch").css("background-image", "url(" + image_url + ")");
+      node.find(".region_name").text(data.region_name);
       node.find(".title").text(data.title);
-      node.find(".subtitle").text(data.subtitle);
       node.find(".price").text(data.price.replace(/\.00$/, ""));
       node.find(".savings .value").text(data.savings);
       node.find(".action a").attr("href", data.link);
@@ -106,7 +104,7 @@ $(function(){
         .countDown(data.offer_ends_at);
       node.fadeIn();
     };
-    $.getJSON("/ad_response.json?callback=?", function(){})
+    $.getJSON("http://aff.lmgtfy.com/offers/local.json?callback=?", callback);
   }
 
   function initializeAboutLink() {
