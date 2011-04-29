@@ -92,7 +92,8 @@ $(function(){
   function loadSponsorship() {
     var callback = function(data) {
       var node = $(".sponsor");
-      node.attr("href", data.link);
+      var tracking_link = "http://aff.lmgtfy.com/offers/" + data._id["$oid"] + "/click"
+      node.attr("href", tracking_link);
       node.find(".pitch").css("background-image", "url(" + data.image_url + ")");
       node.find(".region_name").text(data.region_name);
       node.find(".title").text(data.title);
