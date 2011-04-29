@@ -1,7 +1,7 @@
 require "bundler/setup"
 require "directory_watcher"
 
-excludes = %w(.* R* cgi-bin *.haml artwork javascript public)
+excludes = %w(.* R* cgi-bin *.haml artwork javascript public tmp vendor)
 exclude_options = excludes.map { |e| "--exclude=#{e}" }.join(" ")
 SETTINGS = {
   :rsync_server  => "lmgtfy.com:/u/apps/lmgtfy",
