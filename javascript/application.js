@@ -93,6 +93,7 @@ $(function(){
     var callback = function(data) {
       var node = $(".sponsor");
       var image_url = data.image_url.replace(/100_q60/, "280_q60");
+      node.attr("href", data.link);
       node.find(".pitch").css("background-image", "url(" + image_url + ")");
       node.find(".region_name").text(data.region_name);
       node.find(".title").text(data.title);
@@ -102,7 +103,6 @@ $(function(){
       node.find(".remaining .value")
         .attr("data-ends-at", data.offer_ends_at)
         .countDown(data.offer_ends_at);
-      node.click(function() { window.location.href = data.link });
       node.fadeIn();
     };
     $.getJSON("http://aff.lmgtfy.com/offers/local.json?callback=?", callback);
