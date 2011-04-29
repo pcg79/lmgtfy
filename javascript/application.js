@@ -92,9 +92,8 @@ $(function(){
   function loadSponsorship() {
     var callback = function(data) {
       var node = $(".sponsor");
-      var image_url = data.image_url.replace(/100_q60/, "280_q60");
       node.attr("href", data.link);
-      node.find(".pitch").css("background-image", "url(" + image_url + ")");
+      node.find(".pitch").css("background-image", "url(" + data.image_url + ")");
       node.find(".region_name").text(data.region_name);
       node.find(".title").text(data.title);
       node.find(".price").text(data.price.replace(/\.00$/, ""));
