@@ -79,13 +79,12 @@ $(function(){
   var linkButtons  = $("#link_buttons");
   var linkMessage  = $("#link_message");
 
+  loadSponsorship();
   if (searchString) {
-    $("body").addClass("victim");
-    $.proMarket("120083", gentlyEncode(searchString));
+    $.proMarket("120083", gentlyEncode(searchString)); 
     googleItForThem();
   }
   else {
-    loadSponsorship();
     getTheSearchTerms();
   }
 
