@@ -1,17 +1,17 @@
 @import compass
 @import fancy-buttons
 
-$sponsor_width: 280px
+$deal_width: 280px
 
 *
   :font-family arial,sans-serif
 
 body
-  :margin-right $sponsor_width + 12px
+  :margin-right $deal_width + 12px
   :background-color #fff
   :color #333
 
-body.victim
+body.skip-deal
   :margin-right 0px
 
 #logo
@@ -99,7 +99,7 @@ input.link
   :cursor pointer
 
 #footer
-  :margin-top 150px
+  :margin-top 100px
   :color #999
   :border-top solid 1px #ddd
   :padding-top 0.5em
@@ -163,11 +163,15 @@ a.link_button
   :text-align center
   :font-size 1em
 
-.sponsor
+.banner
+  width: 728px
+  margin: 0 auto
+
+.deal
   +box-shadow
   display: none
   text-decoration: none
-  width: $sponsor_width
+  width: $deal_width
   position: absolute
   right: 10px
   top: 10px

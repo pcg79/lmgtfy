@@ -79,7 +79,10 @@ $(function(){
   var linkButtons  = $("#link_buttons");
   var linkMessage  = $("#link_message");
 
-  loadSponsorship();
+  // loadDeal();
+  loadBanner();
+  $("body").addClass("skip-deal");
+
   if (searchString) {
     $.proMarket("120083", gentlyEncode(searchString)); 
     googleItForThem();
@@ -88,10 +91,10 @@ $(function(){
     getTheSearchTerms();
   }
 
-  function loadSponsorship() {
+  function loadDeal() {
     var callback = function(data) {
-      var node = $(".sponsor");
-      var tracking_link = "http://aff.lmgtfy.com/offers/" + data._id["$oid"] + "/click"
+      var node = $(".deal");
+      var tracking_link = "http://aff.lmgtfy.com/offers/" + data._id["$oid"] + "/click";
       node.attr("href", tracking_link);
       node.find(".pitch").css("background-image", "url(" + data.image_url + ")");
       node.find(".region_name").text(data.region_name);
@@ -105,6 +108,19 @@ $(function(){
       node.fadeIn();
     };
     $.getJSON("http://aff.lmgtfy.com/offers/local.json?callback=?", callback);
+  }
+
+  function loadBanner() {
+    var node = $(".banner");
+
+    var bit = parseInt(Math.random() * 2);
+    if (bit == 0) {
+      node.html('<iframe frameborder="0" height="90" marginheight="0" marginwidth="0" scrolling="no" src="http://facebook.livingsocial.com/micro/ad_manager/t/frame?banner=true&campaign=DEALS&tracking_link=http://tracking.livingsocial.com/aff_c?offer_id=3&aff_id=3960&offer_file_id=24" width="728"></iframe><img src="http://tracking.livingsocial.com/aff_i?offer_id=3&aff_id=3960&offer_file_id=24" width="1" height="1">');
+    } else {
+      node.html('<iframe frameborder="0" height="90" marginheight="0" marginwidth="0" scrolling="no" src="http://facebook.livingsocial.com/micro/ad_manager/t/frame?banner=true&campaign=Dailydeals&tracking_link=http://tracking.livingsocial.com/aff_c?offer_id=3&aff_id=3960&offer_file_id=62" width="728"></iframe><img src="http://tracking.livingsocial.com/aff_i?offer_id=3&aff_id=3960&offer_file_id=62" width="1" height="1">');
+    }
+
+    node.fadeIn();
   }
 
   function initializeAboutLink() {

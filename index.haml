@@ -53,21 +53,23 @@
           %a#tiny.link_button{ :href => "#", :rel => "localize[link.shorten]" } tinyurl
           %a#go.link_button{ :href => "#", :rel => "localize[link.go]" } go
 
-    %a.sponsor
-      .pitch
-        .region_name Region
-        .title $XX to spend on title
-        .numbers
-          .block.savings
-            .value XX%
-            .label savings
-          .block.remaining
-            .value XX:XX:XX
-            .label remaining
-      .action
-        .button
-          %span.price $XX
-          buy&nbsp;now!
+    -# %a.deal
+    -#   .pitch
+    -#     .region_name Region
+    -#     .title $XX to spend on title
+    -#     .numbers
+    -#       .block.savings
+    -#         .value XX%
+    -#         .label savings
+    -#       .block.remaining
+    -#         .value XX:XX:XX
+    -#         .label remaining
+    -#   .action
+    -#     .button
+    -#       %span.price $XX
+    -#       buy&nbsp;now!
+
+    .banner
 
     #footer
       %a.about{ :href => "#", :name => "about", :rel => "localize[about]" } About
