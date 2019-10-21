@@ -6,10 +6,14 @@ GEM
     directory_watcher (1.3.2)
     fancy-buttons (1.0.6)
       compass (= 0.10.6)
-    haml (3.0.25)
+    haml (5.0.0)
+      temple (>= 0.8.0)
+      tilt
     maruku (0.6.0)
       syntax (>= 1.0.0)
     syntax (1.0.0)
+    temple (0.8.2)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
